@@ -1,6 +1,18 @@
-# Upscayl-Docker
+# Upscayl-Docker (WIP)
 
 Upscayl docker image
+
+# Status
+
+I can create a docker container with `upscayl`.
+I have to run using `upscayl --no-sandbox` but I get the following error.
+
+```
+root@7bae2153765f:~# upscayl --no-sandbox
+Checking for beta autoupdate feature for deb/rpm distributions
+Found package-type: deb
+Trace/breakpoint trap (core dumped)
+```
 
 # Why
 
