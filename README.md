@@ -17,6 +17,8 @@ Use `./run.sh` to run the image.
 
 You may need to start ssh with `service ssh start`
 
+You need to start dbus with `service dbus start`
+
 # Connecting to the running container
 
 ssh to the host on port 2222 with x forwarding enabled.
@@ -24,10 +26,6 @@ ssh to the host on port 2222 with x forwarding enabled.
 User is `root`, password is `root`.
 
 Something like `ssh root@<docker host ip> -p 2222`
-
-You may need to set DISPLAY to <ip>:10.0
-
-export DISPLAY=<GUI client ip>:10.0
 
 To run as root use `upscayl --no-sandbox`
 
